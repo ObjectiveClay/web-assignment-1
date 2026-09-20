@@ -17,6 +17,7 @@ main {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
+    overflow: hidden;
 }
 
 .profile-card {
@@ -168,4 +169,15 @@ footer {
         margin: 10px 0;
         text-align: center;
     }
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.task2-content {
+    float: right;
+    width: 70%;
 }
