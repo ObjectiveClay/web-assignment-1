@@ -290,3 +290,117 @@ footer {
 .tribute-content li:last-child {
     margin-bottom: 0;
 }
+
+/*Task4*/
+
+table {
+    width: 100%;
+    margin: 30px 0 60px;
+    border-collapse: collapse;
+    background-color: white;
+    color: #111111;
+    border: 4px solid #d90000;
+}
+
+th,
+td {
+    padding: 18px;
+    border: 2px solid #111111;
+    text-align: center;
+}
+
+th {
+    background-color: #d90000;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.highlight-row {
+    background-color: #ffcccc;
+    font-weight: bold;
+}
+
+table tr:last-child {
+    background-color: #111111;
+    color: white;
+    font-weight: bold;
+}
+
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto 60px;
+    padding: 35px;
+    background-color: white;
+    color: #111111;
+    border: 4px solid #d90000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0 #d90000;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #111111;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form button {
+    background-color: #d90000;
+    color: white;
+    border: 3px solid #d90000;
+    padding: 14px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+form button:hover {
+    background-color: #111111;
+    border-color: #111111;
+}
+
+.radio-group {
+    margin-bottom: 20px;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 20px;
+    text-transform: none;
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
+
+.learn-more {
+    cursor: pointer;
+}
