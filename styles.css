@@ -60,6 +60,7 @@ header h1 {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: -3px;
+    font-style: italic;
 }
 
 header h2 {
@@ -130,6 +131,7 @@ footer {
     padding: 25px;
     margin-top: 50px;
     border-top: 4px solid #d90000;
+    clear: both;
 }
 
 @media (max-width: 768px) {
@@ -180,4 +182,37 @@ footer {
 .task2-content {
     float: right;
     width: 70%;
+}
+
+.sidebar h2 {
+    color: white;
+    font-size: 28px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.sidebar ul {
+    background-color: white;
+    color: #111111;
+    padding: 20px 20px 20px 40px;
+    border-left: 8px solid #d90000;
+    border-radius: 0 10px 10px 0;
+}
+
+.sidebar li {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.sidebar li:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar a {
+    color: #111111;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #d90000;
 }
